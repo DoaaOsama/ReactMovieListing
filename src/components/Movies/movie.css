@@ -1,0 +1,42 @@
+.searchBar{
+    margin-bottom: 1rem;
+    width: 25%;
+    height: 1.5rem;
+    border-radius: 5px; 
+}
+
+
+.ListContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-around;
+  }
+
+.movie-card{
+    display: flex;
+    width: 47%;
+    margin: 2% 0%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.movie-card__image{
+    height: 200px;
+    width: 147px;
+    margin-right: 2%;
+    border-radius: 10px;
+}
+
+.subtitle{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.filtering{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0rem 0rem 2rem;
+}
